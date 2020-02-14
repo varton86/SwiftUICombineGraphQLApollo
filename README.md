@@ -12,7 +12,7 @@ GraphQL сервер возвращает список виджетов DaySecti
 $ npm install
 $ node index.js
  
-Сервер будет запущен по адресу http://localhost:4000/
+Сервер будет запущен по адресу http://localhost:4000
  
 # Task
 It is necessary to write an application showing a list of transactions divided by day.
@@ -28,4 +28,4 @@ To start the server:
 $ npm install
 $ node index.js
 
-The server will be started at http: // localhost: 4000 /
+The server will be started at http://localhost:4000
