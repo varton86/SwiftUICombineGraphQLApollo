@@ -1,0 +1,28 @@
+query AllData {
+  dailyTransactionsFeed {
+    __typename
+    ... on DaySectionWidget {
+      date
+      amount {
+        value
+        currencyCode
+      }
+    }
+    ... on TransactionWidget {
+      transaction {
+        id
+        title
+        amount {
+          value
+          currencyCode
+        }
+        type
+      }
+      image {
+        iconName
+        url
+      }
+    }
+  }
+}
+
