@@ -14,18 +14,18 @@ $ node index.js
  
 Сервер будет запущен по адресу http://localhost:4000/
  
- # Task
- It is necessary to write an application showing a list of transactions divided by day.
+# Task
+It is necessary to write an application showing a list of transactions divided by day.
 
- # Description
- The GraphQL server returns a list of DaySectionWidget and TransactionWidget widgets in which the data necessary for displaying is located. The GraphQL schema is located in the server index.js file.
+# Description
+The GraphQL server returns a list of DaySectionWidget and TransactionWidget widgets in which the data necessary for displaying is located. The GraphQL schema is located in the server index.js file.
   
- Technologies that should be used to solve the task: SwiftUI, Combine, Apollo (https://github.com/apollographql/apollo-ios).
+Technologies that should be used to solve the task: SwiftUI, Combine, Apollo (https://github.com/apollographql/apollo-ios).
   
-   GraphQL server with mock data and design / resources are located in the Source folder.
+GraphQL server with mock data and design / resources are located in the Source folder.
   
- To start the server:
- $ npm install
- $ node index.js
-  
- The server will be started at http: // localhost: 4000 /
+To start the server:
+$ npm install
+$ node index.js
+
+The server will be started at http: // localhost: 4000 /
