@@ -19,11 +19,11 @@ It is necessary to write an application showing a list of transactions divided b
 
 # Description
 The GraphQL server returns a list of DaySectionWidget and TransactionWidget widgets in which the data necessary for displaying is located. The GraphQL schema is located in the server index.js file.
-  
+
 Technologies that should be used to solve the task: SwiftUI, Combine, Apollo (https://github.com/apollographql/apollo-ios).
-  
+
 GraphQL server with mock data and design / resources are located in the Source folder.
-  
+
 To start the server:
 $ npm install
 $ node index.js
