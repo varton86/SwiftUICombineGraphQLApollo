@@ -29,3 +29,5 @@ $ npm install
 $ node index.js
 
 The server will be started at http://localhost:4000
+
+![ScreenShot](design.png)
